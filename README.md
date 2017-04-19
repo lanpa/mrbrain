@@ -3,4 +3,4 @@ Example code for the ISBI2017 paper: Age estimation using brain MRI images with 
 
 Run with:
 
-  th main.lua
+    th main.lua
