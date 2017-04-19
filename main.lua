@@ -29,7 +29,7 @@ opt_string = [[
 ]]
 volcon = false
 opt = lapp(opt_string)
-
+paths.mkdir(opt.save)
 
 criterion = nn.MSECriterion():cuda()
 dataloader = require 'dataloader'
